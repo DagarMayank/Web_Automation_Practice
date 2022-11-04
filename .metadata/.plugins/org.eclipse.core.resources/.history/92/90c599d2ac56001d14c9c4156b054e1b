@@ -1,0 +1,17 @@
+package Pkg1;
+
+import org.openqa.selenium.WebDriver.Window;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.gargoylesoftware.htmlunit.javascript.host.html.Option;
+
+public class launch1 
+{
+		public static void main(String[] args) 
+		{
+			System.setProperty("webdriver.chrome.driver","../SeleniumTesting/chromedriver.exe");
+			ChromeDriver driver=new ChromeDriver();
+			driver.get("https://www.facebook.com");
+			driver.manage().window().maximize();
+		}
+}

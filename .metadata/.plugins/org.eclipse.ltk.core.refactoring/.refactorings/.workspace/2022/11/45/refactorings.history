@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;API_Automation_FrameWork&apos;" deleteContents="false" description="Delete resource &apos;API_Automation_FrameWork&apos;" element1="/API_Automation_FrameWork" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1667448075611"/>
+</session>
