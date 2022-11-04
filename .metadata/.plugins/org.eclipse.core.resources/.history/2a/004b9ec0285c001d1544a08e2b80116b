@@ -22,8 +22,7 @@ public class TC1_ReadFile {
 			{
 				for(int j=0; j<c ;j++)
 				{
-					
-					Cell   wc=s.getCell(j, i);	//we are using (j,i) because it take the value of column first
+					Cell   wc=s.getCell(j, i);
 					System.out.println(wc.getContents());		//get content is used to change the system language into readable lang
 				}
 			}
