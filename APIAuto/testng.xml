@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.Testing.testCases.TC1_Getmethod"/>
+      <class name="org.Testing.testCases.TC1_OrgJsonPostRequest"/>
+      <class name="org.Testing.testCases.TC2_OrgJsonGetMethod"/>
+      <class name="org.Testing.testCases.TC1_PojoClassPostmethod"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
