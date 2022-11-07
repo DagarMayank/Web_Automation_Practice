@@ -7421,3 +7421,6 @@ Contains: Missing com.google.guava:listenablefuture:jar:javadoc:9999.0-empty-to-
 !MESSAGE Could not resolve artifact com.google.guava:listenablefuture:jar:javadoc:9999.0-empty-to-avoid-conflict-with-guava
 !SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-11-07 11:55:27.675
 !MESSAGE Missing com.google.guava:listenablefuture:jar:javadoc:9999.0-empty-to-avoid-conflict-with-guava
+
+!ENTRY org.eclipse.jface.text 2 0 2022-11-07 12:01:47.319
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
