@@ -1,4 +1,4 @@
-package Pkg1;
+package pkg1;
 
 
 
@@ -64,7 +64,7 @@ public class Launch
 		
 		WebElement Bday_month=driver.findElement(By.xpath("//select[@id='month']"));
 		Select s1=new Select(Bday_month);
-		s1.selectByVisibleText("Nov");
+		s1.selectByIndex(10);
 		
 		WebElement Bday_year=driver.findElement(By.xpath("//select[@id='year']"));
 		Select s2=new Select(Bday_year);
@@ -76,7 +76,7 @@ public class Launch
 		WebElement signup=driver.findElement(By.xpath(""));
 		signup.click();
 		
-		driver.close();
+		
 		
 	} 
 }
