@@ -11,8 +11,6 @@
     <fullyQualifiedTypeName name="ExcelFilehandling.Assignment"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="javax.swing.Action"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
     <fullyQualifiedTypeName name="org.Testing.testCases.PojoClassBasicInformation"/>
     <fullyQualifiedTypeName name="org.Testing.testCases.PojoClassInnerInforamtion"/>
@@ -39,7 +37,6 @@
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="org.json.JSONObject"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
-    <fullyQualifiedTypeName name="com.gargoylesoftware.htmlunit.javascript.host.html.Option"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver.Window"/>
     <fullyQualifiedTypeName name="jxl.Sheet"/>
     <fullyQualifiedTypeName name="jxl.read.biff.BiffException"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="io.restassured.http.ContentType"/>
     <fullyQualifiedTypeName name="io.restassured.response.Response"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="com.gargoylesoftware.htmlunit.javascript.host.html.Option"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 </qualifiedTypeNameHistroy>

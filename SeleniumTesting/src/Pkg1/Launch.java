@@ -9,6 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import com.gargoylesoftware.htmlunit.javascript.host.html.Option;
+
 
 
 public class Launch
@@ -16,12 +18,13 @@ public class Launch
 	
 	public static void main(String[] args) throws InterruptedException 
 	{
+	    System.setProperty("webdriver.chromedriver","../SeleniumTesting/chromedriver.exe");	
+		
 	    
-	
-		System.setProperty("webdriver.chrome.driver","../SeleniumTesting/chromedriver.exe");	
-		ChromeDriver driver=new ChromeDriver();
+	    ChromeDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
-		 driver.manage().window().maximize();;
+		driver.manage().window().maximize();;
+		//Option op=(Option) driver.manage();
 		//Window w=op.window();
 		//w.maximize();
 		
@@ -70,7 +73,10 @@ public class Launch
 		WebElement gender=driver.findElement(By.cssSelector("input[value='2']"));
 		gender.click();
 		
+		WebElement signup=driver.findElement(By.xpath(""));
+		signup.click();
 		
+		driver.close();
 		
 	} 
 }
