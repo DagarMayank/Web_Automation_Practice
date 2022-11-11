@@ -2,36 +2,34 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-07T18:02:44 IST" name="Default suite" finished-at="2022-11-07T18:03:10 IST" duration-ms="26108">
+  <suite started-at="2022-11-11T15:11:09 IST" name="Default suite" finished-at="2022-11-11T15:11:38 IST" duration-ms="28794">
     <groups>
     </groups>
-    <test started-at="2022-11-07T18:02:44 IST" name="Default test" finished-at="2022-11-07T18:03:10 IST" duration-ms="26108">
-      <class name="pkg1.FacebookLaunch">
-        <test-method signature="clss1()[pri:0, instance:pkg1.FacebookLaunch@783a467b]" started-at="2022-11-07T18:02:44 IST" name="clss1" finished-at="2022-11-07T18:03:10 IST" duration-ms="25996" status="FAIL">
-          <exception class="org.openqa.selenium.InvalidSelectorException">
+    <test started-at="2022-11-11T15:11:09 IST" name="Default test" finished-at="2022-11-11T15:11:38 IST" duration-ms="28794">
+      <class name="pkg1.YoutubeCollection">
+        <test-method signature="launch()[pri:0, instance:pkg1.YoutubeCollection@783a467b]" started-at="2022-11-11T15:11:10 IST" name="launch" finished-at="2022-11-11T15:11:38 IST" duration-ms="28713" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[invalid selector: Unable to locate an element with the xpath expression  because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
-  (Session info: chrome=107.0.5304.88)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-Q4R7LVV', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+System info: host: 'DESKTOP-Q4R7LVV', ip: '192.168.5.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8025e3a0c40b52751c9420f2e9c917d7, findElement {using=xpath, value=}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Home\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51038}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51038/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8025e3a0c40b52751c9420f2e9c917d7]]>
+Command: [594b21c87136f72db06b25e738b4de84, goBack {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Home\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49765}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49765/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 594b21c87136f72db06b25e738b4de84]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
-  (Session info: chrome=107.0.5304.88)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-Q4R7LVV', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+System info: host: 'DESKTOP-Q4R7LVV', ip: '192.168.5.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8025e3a0c40b52751c9420f2e9c917d7, findElement {using=xpath, value=}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Home\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51038}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51038/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8025e3a0c40b52751c9420f2e9c917d7
+Command: [594b21c87136f72db06b25e738b4de84, goBack {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Home\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49765}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49765/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 594b21c87136f72db06b25e738b4de84
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -43,11 +41,10 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at pkg1.FacebookLaunch.clss1(FacebookLaunch.java:73)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:1021)
+at pkg1.YoutubeCollection.launch(YoutubeCollection.java:33)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -78,11 +75,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clss1 -->
-      </class> <!-- pkg1.FacebookLaunch -->
+        </test-method> <!-- launch -->
+      </class> <!-- pkg1.YoutubeCollection -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
