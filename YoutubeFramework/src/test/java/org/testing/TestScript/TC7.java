@@ -3,9 +3,11 @@ package org.testing.TestScript;
 import java.util.List;
 
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -22,6 +24,7 @@ public class TC7
 		driver.get("https://www.youtube.com/");
 		driver.manage().window().maximize();
 	}
+	
 	@Test
 	public void Login() throws Exception
 	{
@@ -44,12 +47,14 @@ public class TC7
 	
 		List<WebElement>  allvideo= driver.findElements(By.id("video-title"));
 		System.out.println(allvideo.size());			//.size method is used for getting the number of element stored in the Webelements 
-	
-	 
+		
+		
 		for(WebElement Element : allvideo)	//Used the collection class (For-Each loop to run the all the video stored in the 'allvideo')
 		{	
-			 Element.click();
-			 Thread.sleep(5000);			//it will play each video for 5 seconds
+			 Element.click();			
+			 Thread.sleep(5000);       //it will play each video for 5 seconds
+			 WebElement likes=driver.findElement(By.xpath("//div[@class='yt-spec-touch-feedback-shape__fill']\")"));
+			 likes.click();
 			 driver.navigate().back();		//it will navigate  back us on the main page 
 
 		}//WebElement likes=driver.findElement(By.xpath("//div[@class='yt-spec-touch-feedback-shape__fill']\""));
