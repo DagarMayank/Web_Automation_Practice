@@ -41,21 +41,24 @@ public class TC1
 		
 		
 		Thread.sleep(2000);
-		WebElement trending= driver.findElement(By.xpath("//yt-formatted-string[text()='Trending'][1]"));
+		WebElement trending= driver.findElement(By.xpath("//yt-formatted-string[text()='Trending']"));
 		trending.click();
 		
 		
 		Thread.sleep(2000);
-		WebElement Bclicksign=driver.findElement(By.xpath("//img[@id='img' and @draggable='false' and @alt='Avatar image' ]"));
-		Bclicksign.click();
-		
-		WebElement signout= driver.findElement(By.xpath("//tp-yt-paper-item[@class='style-scope ytd-compact-link-renderer'][4]"));  //yt-formatted-string[text()='Sign out']/ancestor::tp-yt-paper-item"));
+		driver.findElement(By.xpath("//button[@id='avatar-btn']")).click();
+		Thread.sleep(5000);
+		WebElement signout=driver.findElement(By.xpath("//yt-formatted-string[text()='Sign out']/ancestor::tp-yt-paper-item")); 								//div[@id='primary-text-container']/ancestor::a[@href='/logout']  
+																																								//yt-formatted-string[text()='Sign out']/ancestor::tp-yt-paper-item"));
+																																								//button[@id='avatar-btn']
 		signout.click();
-		
+		System.out.println("You are now signout");
+	
 	}
 	@AfterMethod
 	public void closebrowser()
 	{
+		System.out.println("After Method");
 		driver.quit();
 		
 	}
