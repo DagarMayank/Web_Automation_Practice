@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pkg1.FacebookLaunch">
+      <class name="pkg1.YoutubeCollection">
         <methods>
-          <include name="clss1"/>
+          <include name="launch"/>
         </methods>
-      </class> <!-- pkg1.FacebookLaunch -->
+      </class> <!-- pkg1.YoutubeCollection -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

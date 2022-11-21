@@ -20,8 +20,9 @@ public class YoutubeCollection //this class is showing how the collection class 
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://www.Youtube.com/");
 		driver.manage().window().maximize();
-		
-	
+		Thread.sleep(3000);
+		ScreenShotCapture.takescreenshot(driver, "c://folder//first.png");
+		Thread.sleep(5000);
 		List<WebElement>  allvideo= driver.findElements(By.id("video-title"));
 		System.out.println(allvideo.size());			//.size method is used for getting the number of element stored in the Webelements 
 	
