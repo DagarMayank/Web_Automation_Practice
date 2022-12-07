@@ -1,17 +1,21 @@
 package pkg1;
 
 import java.io.File;
-import java.io.IOException;
+
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class ScreenShotCapture 
 {
-	public static void takescreenshot(ChromeDriver driver, String path) throws IOException
+	@Test
+	public static void takescreenshot(ChromeDriver driver, String string) throws Exception 
 	{
 		File screenshot=driver.getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(screenshot,new File(path));  
+		FileUtils.copyFile(screenshot,new File(string));  
+	
 	}
+	
 }

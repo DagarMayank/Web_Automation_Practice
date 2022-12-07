@@ -1,13 +1,11 @@
 package pkg1;
 
 import java.util.List;
-import java.util.Set;
+
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 public class YoutubeCollection //this class is showing how the collection class is being used in the selenium
@@ -21,7 +19,7 @@ public class YoutubeCollection //this class is showing how the collection class 
 		driver.get("https://www.Youtube.com/");
 		driver.manage().window().maximize();
 		Thread.sleep(3000);
-		ScreenShotCapture.takescreenshot(driver, "c://folder//first.png");
+		ScreenShotCapture.takescreenshot(driver, "G:\\30-10-2022 desktop backup\\eclipse-workspace\\SelenumProject\\Screenshot");
 		Thread.sleep(5000);
 		List<WebElement>  allvideo= driver.findElements(By.id("video-title"));
 		System.out.println(allvideo.size());			//.size method is used for getting the number of element stored in the Webelements 

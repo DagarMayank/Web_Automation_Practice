@@ -1,9 +1,7 @@
 package Org.testing.utilities;
 
-import org.json.JSONArray;
 import org.json.JSONObject;
 
-import io.restassured.response.Response;
 
 public class JsonParsingUsingOrgJson 
 {

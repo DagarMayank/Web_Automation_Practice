@@ -20,7 +20,7 @@ public class FacebookLaunch {
 	    
 	    ChromeDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
-		driver.manage().window().maximize();;
+		driver.manage().window().maximize();
 		//Option op=(Option) driver.manage();
 		//Window w=op.window();
 		//w.maximize();

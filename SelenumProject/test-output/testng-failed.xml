@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pkg1.YoutubeCollection">
+      <class name="pkg1.Webtable">
         <methods>
+          <include name="table"/>
+          <include name="close"/>
           <include name="launch"/>
         </methods>
-      </class> <!-- pkg1.YoutubeCollection -->
+      </class> <!-- pkg1.Webtable -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

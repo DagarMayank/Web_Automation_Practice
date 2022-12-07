@@ -32,30 +32,18 @@ public class TC10 extends  Base
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//button[@id='search-icon-legacy']")).click();
 		
-		/*List<WebElement> suggestions= driver.findElements(By.xpath("//div[@class='sbdd_b']"));
-		System.out.println(suggestions.size());
-		Thread.sleep(3000);
-	
-		for(WebElement i : suggestions)
-		{
-			System.out.println(i.getText());
-			
-			if(i.getText().contains("gaadi pache gaadi"))
-			{
-				i.click();
-				Thread.sleep(5000);
-				break;
-			}
-	*/	List<WebElement>  allvideo= driver.findElements(By.id("video-title"));
+		List<WebElement>  allvideo= driver.findElements(By.id("video-title"));
 		System.out.println("Size of allVideo is "+allvideo.size());		
 		Thread.sleep(5000);
 
-		String videoName=driver.findElement(By.xpath(pr.getProperty("NameofVideo"))).getText();
+		WebElement videoName=driver.findElement(By.xpath("(//a[@id='video-title']//yt-formatted-string[contains(text(),'"+s+"')])[1]"));
+		videoName.click();
+		/*String videoName=driver.findElement(By.xpath(pr.getProperty("NameofVideo"))).getText();
 		System.out.println(videoName);
 		Thread.sleep(5000);
-		
-		driver.findElement(By.xpath("//a[@id='video-title']//yt-formatted-string[text()='"+videoName+"']")).click();
-		Thread.sleep(5000);
+		*/
+//		driver.findElement(By.xpath("//a[@id='video-title']//yt-formatted-string[text()='"+videoName+"']")).click();
+//		Thread.sleep(5000);
 		driver.findElement(By.xpath(pr.getProperty("LikeButton"))).click();
 		Thread.sleep(5000);
 		
