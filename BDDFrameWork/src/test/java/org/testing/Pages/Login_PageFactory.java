@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Login_PageFactory 
 {
+	
 	@FindBy(xpath="//input[@placeholder='Enter your full name']")
 	WebElement txt_username;
 	
@@ -19,7 +20,7 @@ public class Login_PageFactory
 												//the webelemnt it will direatly take it from the memory
 	WebElement btn_login;
 	
-	WebDriver driver;
+	public WebDriver driver;
 	public Login_PageFactory(WebDriver driver)
 	{
 		this.driver=driver;					

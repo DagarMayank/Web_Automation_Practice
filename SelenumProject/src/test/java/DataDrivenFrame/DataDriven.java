@@ -2,7 +2,8 @@ package DataDrivenFrame;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -18,14 +19,13 @@ import jxl.read.biff.BiffException;
 
 public class DataDriven 
 {
-	@SuppressWarnings("deprecation")
 	@Test(dataProvider="file")
-	public void test(String UserName, String PassWord) throws Exception
+	public void test(String i, String j) throws Exception
 	{
 		
 		System.setProperty("webdriver.chrome.driver", "../YoutubeFramework/chromedriver.exe");
 		WebDriver driver =new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.MILLISECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 
 		driver.get("https://www.youtube.com/");
 		driver.manage().window().maximize();
@@ -38,7 +38,7 @@ public class DataDriven
 		
 		WebElement EmailID= driver.findElement(By.xpath("//input[@autocomplete='username']"));
 		Thread.sleep(3000);
-		EmailID.sendKeys(UserName);
+		EmailID.sendKeys(i);
 		Thread.sleep(3000);
 		
 		WebElement NextButton= driver.findElement(By.xpath("//span[text()='Next']"));
@@ -48,7 +48,7 @@ public class DataDriven
 		
 		WebElement Password= driver.findElement(By.xpath("//input[@aria-label='Enter your password']"));
 		Thread.sleep(3000);
-		Password.sendKeys(PassWord);
+		Password.sendKeys(j);
 		Thread.sleep(3000);
 		
 		WebElement NextButton1= driver.findElement(By.xpath("//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']"));

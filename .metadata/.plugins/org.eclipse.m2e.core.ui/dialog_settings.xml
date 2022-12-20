@@ -86,6 +86,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="G:\30-10-2022 desktop backup\eclipse-workspace\BDDFrameWork"/>
 			<item value="G:\30-10-2022 desktop backup\eclipse-workspace\APIAuto"/>
 			<item value="G:\30-10-2022 desktop backup\eclipse-workspace\API_FrameWork"/>
 			<item value="H:\30-10-2022 desktop backup\eclipse-workspace\API_FrameWork"/>
@@ -102,6 +103,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="BDDFrameWork.BDD"/>
 			<item value="BDDFrameWork.BDDFrameWork"/>
 			<item value="SeleniumFrameWork.Selenium"/>
 			<item value="Selenium.SelenumProject"/>
@@ -117,6 +119,7 @@
 			<item value="CoreJavaProject"/>
 		</list>
 		<list key="artifactId">
+			<item value="BDD"/>
 			<item value="BDDFrameWork"/>
 			<item value="Selenium"/>
 			<item value="SelenumProject"/>

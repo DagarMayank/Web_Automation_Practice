@@ -15,6 +15,8 @@ public class TC1_ReadFile {
 	{
 		File f=new File("../CoreJavaFile/XlxsFilehandling.xlsx.xls");
 		FileInputStream fi= new FileInputStream(f);
+		
+		@SuppressWarnings("resource")
 		XSSFWorkbook xw=new XSSFWorkbook(fi);
 		XSSFSheet	xs=xw.getSheetAt(0);
 		

@@ -15,7 +15,7 @@ import cucumber.api.java.en.Then;
 
 public class StepDef_YoutubeFrameWork 
 {
-	WebDriver driver;
+	public WebDriver driver;
 
 	
 	@Before
@@ -44,8 +44,8 @@ public class StepDef_YoutubeFrameWork
 		SignUp.click();
 		
 	 }
-	 @And("User is Navigated to EnterLogin Enter username and click on next")
-	 public void User_is_Navigated_to_EnterLogin_Enter_username_and_click_on_next() throws Exception
+	 @And("User is Navigated to EnterLogin Enter username and password and click on next")
+	 public void User_is_Navigated_to_EnterLogin_Enter_username_and_password_and_click_on_next() throws Exception
 	 {
 		 WebElement EmailID= driver.findElement(By.xpath("//input[@autocomplete='username']"));
 			EmailID.sendKeys("ballu.badmass101@gmail.com");
@@ -55,17 +55,26 @@ public class StepDef_YoutubeFrameWork
 			NextButton.click();
 			Thread.sleep(3000);
 			
-	 }
-	 @And("User is Navigated to Enterpassword Password and click on Next$")
-	 public void User_is_Navigated_to_Enterpassword_and_click_on_Next() throws Exception
-	 {
-		 WebElement Password= driver.findElement(By.xpath("//input[@aria-label='Enter your password']"));
-			Password.sendKeys("India@1234");
-			WebElement NextButton1= driver.findElement(By.xpath("//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']"));
-			NextButton1.click();
-			Thread.sleep(3000);
+
+			 WebElement Password= driver.findElement(By.xpath("//input[@aria-label='Enter your password']"));
+				Password.sendKeys("India@1234");
+				WebElement NextButton1= driver.findElement(By.xpath("//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']"));
+				NextButton1.click();
+				Thread.sleep(3000);
 			
 	 }
+//	 @And("User enters password")
+//	 public void UserEntersPassword() throws Exception
+//	 {
+//		 Thread.sleep(4000);
+//
+//		 WebElement Password= driver.findElement(By.xpath("//input[@aria-label='Enter your password']"));
+//			Password.sendKeys("India@1234");
+//			WebElement NextButton1= driver.findElement(By.xpath("//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']"));
+//			NextButton1.click();
+//			Thread.sleep(3000);
+//			
+//	 }
 	 @Then("User is Navigated to HomePage")
 	 public void User_is_Navigated_to_HomePage()
 	 {
