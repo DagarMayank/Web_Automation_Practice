@@ -86,9 +86,10 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="G:\30-10-2022 desktop backup\eclipse-workspace\API_FrameWork"/>
+			<item value="G:\30-10-2022 desktop backup\eclipse-workspace\YoutubeFramework"/>
 			<item value="G:\30-10-2022 desktop backup\eclipse-workspace\BDDFrameWork"/>
 			<item value="G:\30-10-2022 desktop backup\eclipse-workspace\APIAuto"/>
-			<item value="G:\30-10-2022 desktop backup\eclipse-workspace\API_FrameWork"/>
 			<item value="H:\30-10-2022 desktop backup\eclipse-workspace\API_FrameWork"/>
 			<item value="C:\Users\Dagar\eclipse-workspace\APIAuto"/>
 		</list>
@@ -103,28 +104,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="BDDFrameWork.BDD"/>
-			<item value="BDDFrameWork.BDDFrameWork"/>
-			<item value="SeleniumFrameWork.Selenium"/>
-			<item value="Selenium.SelenumProject"/>
-			<item value="API_Automation"/>
-			<item value="API_Automation.API_Automation_FrameWork"/>
-			<item value="CoreJavaProject.CoreJavaFile"/>
+			<item value="Demo.Demo"/>
+			<item value="Demo.emu"/>
 		</list>
 		<list key="groupId">
-			<item value="BDDFrameWork"/>
-			<item value="SeleniumFrameWork"/>
-			<item value="Selenium"/>
-			<item value="API_Automation"/>
-			<item value="CoreJavaProject"/>
+			<item value="Demo"/>
 		</list>
 		<list key="artifactId">
-			<item value="BDD"/>
-			<item value="BDDFrameWork"/>
-			<item value="Selenium"/>
-			<item value="SelenumProject"/>
-			<item value="API_Automation_FrameWork"/>
-			<item value="CoreJavaFile"/>
+			<item value="Demo"/>
+			<item value="emu"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
