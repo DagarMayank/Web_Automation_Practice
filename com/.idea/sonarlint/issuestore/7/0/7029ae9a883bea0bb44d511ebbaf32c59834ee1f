@@ -1,0 +1,12 @@
+
+p
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "url".(óò“F
+{
+java:S1488 "`Immediately return this expression instead of assigning it to the temporary variable "username".(ˆú‰×ýÿÿÿÿ
+v
+java:S1488&"`Immediately return this expression instead of assigning it to the temporary variable "password".(à‰äß
+}
+java:S1488-"bImmediately return this expression instead of assigning it to the temporary variable "chromepath".(ÈÒì¢ýÿÿÿÿ
+h
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(‘¤ÈÍøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Æ¸—Öýÿÿÿÿ

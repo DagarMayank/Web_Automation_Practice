@@ -32,19 +32,19 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.EditDependencyDialog">
-		<item value="480" key="width"/>
-		<item value="443" key="x"/>
-		<item value="64" key="y"/>
-		<item value="450" key="height"/>
+		<item key="width" value="480"/>
+		<item key="x" value="443"/>
+		<item key="y" value="64"/>
+		<item key="height" value="450"/>
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
-		<item value="480" key="width"/>
-		<item value="784" key="x"/>
-		<item value="10" key="y"/>
-		<item value="531" key="height"/>
+		<item key="width" value="480"/>
+		<item key="x" value="784"/>
+		<item key="y" value="10"/>
+		<item key="height" value="531"/>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item value="All Catalogs" key="catalog"/>
+		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -87,6 +87,7 @@
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
 			<item value="G:\30-10-2022 desktop backup\eclipse-workspace\API_FrameWork"/>
+			<item value="G:\30-10-2022 desktop backup\eclipse-workspace\SelenumProject"/>
 			<item value="G:\30-10-2022 desktop backup\eclipse-workspace\YoutubeFramework"/>
 			<item value="G:\30-10-2022 desktop backup\eclipse-workspace\BDDFrameWork"/>
 			<item value="G:\30-10-2022 desktop backup\eclipse-workspace\APIAuto"/>
@@ -104,13 +105,20 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="OrangeHRMFrameWork.demo"/>
+			<item value="Demo1"/>
+			<item value="Demo1.Demo1"/>
 			<item value="Demo.Demo"/>
 			<item value="Demo.emu"/>
 		</list>
 		<list key="groupId">
+			<item value="OrangeHRMFrameWork"/>
+			<item value="Demo1"/>
 			<item value="Demo"/>
 		</list>
 		<list key="artifactId">
+			<item value="demo"/>
+			<item value="Demo1"/>
 			<item value="Demo"/>
 			<item value="emu"/>
 		</list>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.org.eclipse.jdt.core.external.folders.iml" filepath="$PROJECT_DIR$/.org.eclipse.jdt.core.external.folders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/APIAuto.iml" filepath="$PROJECT_DIR$/APIAuto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/API_Automation_FrameWork.iml" filepath="$PROJECT_DIR$/API_Automation_FrameWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/API_FrameWork.iml" filepath="$PROJECT_DIR$/API_FrameWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/API_FrameWork_RestAssured.iml" filepath="$PROJECT_DIR$/API_FrameWork_RestAssured.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BDDFrameWork.iml" filepath="$PROJECT_DIR$/BDDFrameWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BDD_Youtube_Frame.iml" filepath="$PROJECT_DIR$/BDD_Youtube_Frame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CoreJavaFile.iml" filepath="$PROJECT_DIR$/CoreJavaFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CoreJavaMavenproject.iml" filepath="$PROJECT_DIR$/CoreJavaMavenproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GroovyIntro.iml" filepath="$PROJECT_DIR$/GroovyIntro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaScript_FirstProject.iml" filepath="$PROJECT_DIR$/JavaScript_FirstProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maqdoom_Assignment.iml" filepath="$PROJECT_DIR$/Maqdoom_Assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SeleniumTesting.iml" filepath="$PROJECT_DIR$/SeleniumTesting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SelenumProject.iml" filepath="$PROJECT_DIR$/SelenumProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YoutubeFramework.iml" filepath="$PROJECT_DIR$/YoutubeFramework.iml" />
+    </modules>
+  </component>
+</project>

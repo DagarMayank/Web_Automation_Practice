@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Listeners.TestNGListener"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="pkg1.CalenderHandling"/>
+      <class name="pkg2.NotificationPOP_UP"/>
+      <class name="pkg1.FacebookLaunch"/>
+      <class name="assignment.DependsOnMethodTestNG"/>
+      <class name="pkg1.ScreenShotCapture"/>
+      <class name="pkg1.DataDrivenDataProvider"/>
+      <class name="pkg1.DataDrivenDataProviderExample"/>
+      <class name="pkg1.TrivagoTripActionclass"/>
+      <class name="pkg2.IsDisplayed"/>
+      <class name="pkg1.ScreenShot"/>
+      <class name="pkg1.YoutubeCollection"/>
+      <class name="pkg1.IframeHandle"/>
+      <class name="pkg2.AlertPop_UpHandle"/>
+      <class name="assignment.HashMap_Loop"/>
+      <class name="pkg1.DataPicker"/>
+      <class name="pkg2.ChromeOption"/>
+      <class name="DataDrivenFrame.DataDriven"/>
+      <class name="pkg1.Webtable"/>
+      <class name="pkg2.ScrollToBottomofWebPage"/>
+      <class name="pkg1.SwitchingUsingEqualTag"/>
+      <class name="assignment.screenshot_Exception"/>
+      <class name="pkg1.SwitchingWindow"/>
+      <class name="pkg1.AutoSuggestionDropdown"/>
+      <class name="pkg1.GmailAllLink"/>
+      <class name="pkg2.Scrolling_WebPage"/>
+      <class name="pkg2.ScrollingToVisibleElement"/>
+      <class name="Listeners.TestNGListenerDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

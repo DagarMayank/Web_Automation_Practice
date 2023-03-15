@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="741931a8-c9b0-43d8-afd3-9975b2b61b3e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.org.eclipse.jdt.core.external.folders.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../APIAuto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_Automation_FrameWork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_FrameWork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_FrameWork_RestAssured.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BDDFrameWork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BDD_Youtube_Frame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CoreJavaFile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CoreJavaMavenproject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroovyIntro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript_FirstProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maqdoom_Assignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/junitreports/TEST-com.testing.testcase.LoginMaqdoom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumTesting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SelenumProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YoutubeFramework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/appname/Basepage/Basepage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/appname/Basepage/Calendardemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/appname/Basepage/ClassicDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/appname/Basepage/Demoamazon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/appname/Basepage/Facebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/appname/Basepage/InputHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/appname/Basepage/Instagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/appname/Basepage/LinkHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/appname/Basepage/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/appname/Basepage/RadioButtonHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/appname/Basepage/ReadingText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/inetbanking/Testcases/TC_AddCustomerTest_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/inetbanking/Testcases/TC_LoginDDT_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/inetbanking/Testcases/TC_Logintest_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/inetbanking/testdata/LoginData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/inetbanking1/pagesobject/AddCustomerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/inetbanking1/pagesobject/Baseclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/inetbanking1/pagesobject/Loginpage1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/inetbanking1/utilities/DataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/inetbanking1/utilities/Readconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com/inetbanking1/utilities/Reporting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.bak_0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.bak_0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/DemoClassJava.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/DemoClassJava.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/demo.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/demo.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/495006175.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/495006175.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core.ui/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/1e7a700cc99261073ef751c1237b86d1/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/1e7a700cc99261073ef751c1237b86d1/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJavaFile/src/test/java/HemlataClass/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJavaFile/src/test/java/HemlataClass/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJavaFile/target/classes/META-INF/maven/CoreJavaProject/CoreJavaFile/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJavaFile/target/classes/META-INF/maven/CoreJavaProject/CoreJavaFile/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJavaFile/target/test-classes/HemlataClass/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJavaFile/target/test-classes/HemlataClass/Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maqdoom_Assignment/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maqdoom_Assignment/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maqdoom_Assignment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/Default suite/Default test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/Default suite/Default test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/Default suite/Default test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/Default suite/Default test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/Default suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/Default suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/old/Default suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/old/Default suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/old/Default suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/old/Default suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/old/Default suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/old/Default suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/old/Default suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/old/Default suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/old/Default suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Maqdoom_Assignment/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenumProject/Screenshot/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenumProject/Screenshot/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenumProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenumProject/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenumProject/src/test/java/pkg1/CalenderHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenumProject/src/test/java/pkg1/CalenderHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenumProject/test-output/Default suite/Default test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenumProject/test-output/Default suite/Default test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenumProject/test-output/Default suite/Default test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenumProject/test-output/Default suite/Default test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenumProject/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenumProject/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenumProject/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenumProject/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenumProject/test-output/junitreports/TEST-pkg1.GmailAllLink.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenumProject/test-output/junitreports/TEST-pkg1.GmailAllLink.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenumProject/test-output/old/Default suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenumProject/test-output/old/Default suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenumProject/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenumProject/test-output/old/Default suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenumProject/test-output/old/Default suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenumProject/test-output/old/Default suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenumProject/test-output/old/Default suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenumProject/test-output/old/Default suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenumProject/test-output/old/Default suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenumProject/test-output/old/Default suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenumProject/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenumProject/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenumProject/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenumProject/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YoutubeFramework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../YoutubeFramework/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2JzdpLmAUkekoJywXV1mFxb63pk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "G:/30-10-2022 desktop backup/eclipse-workspace/Git-Sakon/QA_Automation"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.G:/30-10-2022 desktop backup/eclipse-workspace/OrangeHRMFrameWork/testng.xml">
+    <configuration name="G:/30-10-2022 desktop backup/eclipse-workspace/OrangeHRMFrameWork/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.test_login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.TestCases" />
+      <option name="MAIN_CLASS_NAME" value="com.test.TestCases.LoginTest" />
+      <option name="METHOD_NAME" value="test_login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.G:/30-10-2022 desktop backup/eclipse-workspace/OrangeHRMFrameWork/testng.xml" />
+        <item itemvalue="TestNG.LoginTest.test_login" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="741931a8-c9b0-43d8-afd3-9975b2b61b3e" name="Changes" comment="" />
+      <created>1673085031180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673085031180</updated>
+    </task>
+    <servers />
+  </component>
+</project>

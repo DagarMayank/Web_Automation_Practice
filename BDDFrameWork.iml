@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <conelement value="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER" />
+    <src_description expected_position="3">
+      <src_folder value="file://$MODULE_DIR$/BDDFrameWork/src/main/java" expected_position="0" />
+      <src_folder value="file://$MODULE_DIR$/BDDFrameWork/src/test/java" expected_position="1" />
+      <src_folder value="file://$MODULE_DIR$/BDDFrameWork/.apt_generated" expected_position="6" />
+      <src_folder value="file://$MODULE_DIR$/BDDFrameWork/.apt_generated_tests" expected_position="7" />
+      <src_folder value="file://$MODULE_DIR$/BDDFrameWork/target/generated-sources/annotations" expected_position="8" />
+      <src_folder value="file://$MODULE_DIR$/BDDFrameWork/target/generated-test-sources/test-annotations" expected_position="9" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/BDDFrameWork/target/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/BDDFrameWork">
+      <sourceFolder url="file://$MODULE_DIR$/BDDFrameWork/.apt_generated" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BDDFrameWork/.apt_generated_tests" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BDDFrameWork/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BDDFrameWork/src/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BDDFrameWork/target/generated-sources/annotations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BDDFrameWork/target/generated-test-sources/test-annotations" isTestSource="false" />
+    </content>
+    <orderEntry type="library" name="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER" level="application" />
+    <orderEntry type="module-library">
+      <library name="junit4">
+        <CLASSES>
+          <root url="jar://$APPLICATION_HOME_DIR$/lib/junit4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="jdk" jdkName="CDC-1.0%Foundation-1.0" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -42,7 +42,7 @@ public class CalenderHandling
 		String MonthYear=month+" "+sc.next();
 		String MonthYear1= d+" "+MonthYear;
 		System.out.println(MonthYear1);
-	
+		sc.close();
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		Thread.sleep(5000);
