@@ -1,6 +1,7 @@
 package collectionClass;
 
 import java.util.HashSet;
+import java.util.*;
 
 public class HashSetCollection 
 {
@@ -16,6 +17,12 @@ public class HashSetCollection
 				{
 					System.out.println(i);
 				}
+				
+				if(s.contains(12)) {
+					System.out.println("True");
+				}
+				
+				
 				
 		}
 }
